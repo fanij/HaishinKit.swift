@@ -7,7 +7,7 @@ extension URL {
             target += user
         }
         if let password: String = password {
-            target += ": " + password
+            target += ":" + password
         }
         if target != "" {
             target += "@"
